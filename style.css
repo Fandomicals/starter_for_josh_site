@@ -128,16 +128,17 @@ h4 {
 }
 
 .readmore{
-    color: #a19ba6;
+    color: #a19ba6;    
     font-size: 0.9em;
-   margin-bottom: 30px; 
+    margin-bottom: 40px;
+    display: block;
 }
 
 footer{
     background-image:url(images/footer-bg.jpg);
     background-size:cover;
     width:100%;
-background-position: center center;  
+    background-position: center center;  
 }
 
 .footer-content{
