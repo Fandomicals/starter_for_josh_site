@@ -48,12 +48,14 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
             <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">HOME</a></li>
-                   <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">PUBLICATIONS</a></li>
-                    <li><a href="#">CV</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul> 
+  <?php wp_nav_menu(array(
+        'menu' => 'Top Menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
           </li>
         </ul>
     </div>
@@ -61,6 +63,5 @@
 </nav>
 
         <div class="container">
-            <h1> Games Design For the future </h1>
         </div><!-- container-->
       </header>
